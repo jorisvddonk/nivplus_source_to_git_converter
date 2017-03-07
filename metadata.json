@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "zip": "src/r0.zip",
+    "date": 0,
+    "commitMessage": "r0"
+  },
+  {
+    "zip": "src/r1.zip",
+    "date": 10,
+    "commitMessage": "r1"
+  },
+  {
+    "zip": "src/r2.zip",
+    "date": 0,
+    "commitMessage": "r2"
+  },
+  {
+    "zip": "src/r2_1.zip",
+    "date": 0,
+    "commitMessage": "r2_1"
+  },
+  {
+    "zip": "src/r2_1b.zip",
+    "date": 0,
+    "commitMessage": "r2_1b"
+  },
+  {
+    "zip": "src/r2_2.zip",
+    "date": 0,
+    "commitMessage": "r2_2"
+  },
+  {
+    "zip": "src/r2_2b.zip",
+    "date": 0,
+    "commitMessage": "r2_2b"
+  }
+]
