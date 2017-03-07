@@ -2,6 +2,7 @@ var nodegit = require("nodegit");
 var path = require("path");
 var fsextra = require('fs-extra');
 var admzip = require('adm-zip');
+var moment = require('moment');
 var config = require('./config.json');
 var metadata = require('./metadata.json');
 
@@ -20,7 +21,7 @@ var initRepo = function() {
         return repository.refreshIndex().then(function(index) {
           return index.write().then(function(){
             return index.writeTree().then(function(oid){
-              var author = nodegit.Signature.create(config.author.name, config.author.email, config.initialCommitDate, 0);
+              var author = nodegit.Signature.create(config.author.name, config.author.email, getDate(config.initialCommitDate), 0);
               return repository.createCommit("HEAD", author, author, "Initial commit; generated with nivplus_source_to_git_converter", oid, []);
             });
           });
@@ -57,11 +58,15 @@ function doNext(repository, meta) {
       return index.write().then(function(){
         return index.writeTree().then(function(oid){
           return nodegit.Reference.nameToId(repository, "HEAD").then(function(parent) {
-            var author = nodegit.Signature.create(config.author.name, config.author.email, meta.date, 0);
+            var author = nodegit.Signature.create(config.author.name, config.author.email, getDate(meta.date), 0);
             return repository.createCommit("HEAD", author, author, meta.commitMessage, oid, [parent]);
           })
         });
       });
     })
   })
+}
+
+function getDate(str) {
+  return moment.utc(str, [moment.ISO_8601, 'MMM DD, YYYY HH:mm', 'X']).unix(); // ISO 8601 or 'Apr 12, 2009 14:20' or unix epoch
 }
