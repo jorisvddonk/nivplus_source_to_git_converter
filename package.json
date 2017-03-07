@@ -1,0 +1,16 @@
+{
+  "name": "nivplus_source_to_git_converter",
+  "version": "1.0.0",
+  "description": "Converts a bunch of .zip files containing NIV+ sourcecode to a Git repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joris van de Donk <jorisvddonk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "fs-extra": "^2.0.0",
+    "nodegit": "^0.18.0"
+  }
+}
