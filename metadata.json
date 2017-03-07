@@ -2,41 +2,49 @@
   {
     "zip": "src/r0.zip",
     "date": "Feb 04, 2003 14:11",
-    "commitMessage": "Vanilla Noctis IV"
+    "commitMessage": "Vanilla Noctis IV",
+    "cleanDirBeforeImporting": true
   },
   {
     "zip": "src/r1.zip",
     "date": "Nov 06, 2008 16:37",
-    "commitMessage": "r1"
+    "commitMessage": "r1",
+    "cleanDirBeforeImporting": true
   },
   {
     "zip": "src/r2.zip",
     "date": "Apr 12, 2009 00:51",
-    "commitMessage": "r2"
+    "commitMessage": "r2",
+    "cleanDirBeforeImporting": true
   },
   {
     "zip": "src/r2_1.zip",
     "date": "Jul 08, 2009 16:44",
-    "commitMessage": "r2_1"
+    "commitMessage": "r2_1",
+    "cleanDirBeforeImporting": true
   },
   {
     "zip": "src/r2_1b.zip",
     "date": "Dec 01, 2010 18:47",
-    "commitMessage": "r2_1b"
+    "commitMessage": "r2_1b",
+    "cleanDirBeforeImporting": true
   },
   {
     "zip": "src/r2_2.zip",
     "date": "Sep 09, 2015 16:38",
-    "commitMessage": "r2_2"
+    "commitMessage": "r2_2",
+    "cleanDirBeforeImporting": true
   },
   {
     "zip": "src/r2_2b.zip",
     "date": "Sep 09, 2015 20:43",
-    "commitMessage": "r2_2b"
+    "commitMessage": "r2_2b",
+    "cleanDirBeforeImporting": true
   },
   {
     "zip": "src/add_readme.zip",
     "date": "Mar 07, 2017 20:55",
-    "commitMessage": "Added README.md"
+    "commitMessage": "Added README.md",
+    "cleanDirBeforeImporting": false
   }
 ]

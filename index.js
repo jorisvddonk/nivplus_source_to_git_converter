@@ -43,6 +43,15 @@ initRepo().then(function(repository) {
 }).catch(console.error);
 
 function doNext(repository, meta) {
+  if (meta.cleanDirBeforeImporting) {
+    console.log("Cleaning repository before importing...");
+    var filenames = fsextra.readdirSync(repoDir);
+    filenames.forEach(function(filename) {
+      if (filename !== '.git') {
+        fsextra.removeSync(path.join(repoDir, filename));
+      }
+    });
+  }
   var zip = new admzip(meta.zip);
   zip.getEntries().forEach(function(zipEntry) { // extract the .zip file
     if (zipEntry.isDirectory) {
