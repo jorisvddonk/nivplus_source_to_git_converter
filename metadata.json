@@ -1,37 +1,37 @@
 [
   {
     "zip": "src/r0.zip",
-    "date": 0,
-    "commitMessage": "r0"
+    "date": "Feb 04, 2003 14:11",
+    "commitMessage": "Vanilla Noctis IV"
   },
   {
     "zip": "src/r1.zip",
-    "date": 10,
+    "date": "Nov 06, 2008 16:37",
     "commitMessage": "r1"
   },
   {
     "zip": "src/r2.zip",
-    "date": 0,
+    "date": "Apr 12, 2009 00:51",
     "commitMessage": "r2"
   },
   {
     "zip": "src/r2_1.zip",
-    "date": 0,
+    "date": "Jul 08, 2009 16:44",
     "commitMessage": "r2_1"
   },
   {
     "zip": "src/r2_1b.zip",
-    "date": 0,
+    "date": "Dec 01, 2010 18:47",
     "commitMessage": "r2_1b"
   },
   {
     "zip": "src/r2_2.zip",
-    "date": 0,
+    "date": "Sep 09, 2015 16:38",
     "commitMessage": "r2_2"
   },
   {
     "zip": "src/r2_2b.zip",
-    "date": 0,
+    "date": "Sep 09, 2015 20:43",
     "commitMessage": "r2_2b"
   }
 ]
