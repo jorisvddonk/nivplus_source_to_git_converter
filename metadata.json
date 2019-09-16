@@ -1,49 +1,73 @@
 [
   {
-    "zip": "src/r0.zip",
-    "date": "Feb 04, 2003 14:11",
-    "commitMessage": "Vanilla Noctis IV",
+    "zip": "src/data_2005_01.zip",
+    "date": "Jan 01, 2005 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ Jan 2005",
     "cleanDirBeforeImporting": true
   },
   {
-    "zip": "src/r1.zip",
-    "date": "Nov 06, 2008 16:37",
-    "commitMessage": "r1",
+    "zip": "src/data_2008_12.zip",
+    "date": "Dec 01, 2008 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ Dec 2008",
     "cleanDirBeforeImporting": true
   },
   {
-    "zip": "src/r2.zip",
-    "date": "Apr 12, 2009 00:51",
-    "commitMessage": "r2",
+    "zip": "src/data_2009_04.zip",
+    "date": "Apr 01, 2009 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ Apr 2009",
     "cleanDirBeforeImporting": true
   },
   {
-    "zip": "src/r2_1.zip",
-    "date": "Jul 08, 2009 16:44",
-    "commitMessage": "r2_1",
+    "zip": "src/data_2009_10.zip",
+    "date": "Oct 01, 2009 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ Oct 2009",
     "cleanDirBeforeImporting": true
   },
   {
-    "zip": "src/r2_1b.zip",
-    "date": "Dec 01, 2010 18:47",
-    "commitMessage": "r2_1b",
+    "zip": "src/data_2010_07.zip",
+    "date": "Jul 01, 2010 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ Jul 2010",
     "cleanDirBeforeImporting": true
   },
   {
-    "zip": "src/r2_2.zip",
-    "date": "Sep 09, 2015 16:38",
-    "commitMessage": "r2_2",
+    "zip": "src/data_2011_05.zip",
+    "date": "May 01, 2011 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ May 2011",
     "cleanDirBeforeImporting": true
   },
   {
-    "zip": "src/r2_2b.zip",
-    "date": "Sep 09, 2015 20:43",
-    "commitMessage": "r2_2b",
+    "zip": "src/data_2012_05.zip",
+    "date": "May 01, 2012 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ May 2012",
+    "cleanDirBeforeImporting": true
+  },
+  {
+    "zip": "src/data_2013_01.zip",
+    "date": "Jan 01, 2013 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ Jan 2013",
+    "cleanDirBeforeImporting": true
+  },
+  {
+    "zip": "src/data_2014_03.zip",
+    "date": "Mar 01, 2014 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ Mar 2014",
+    "cleanDirBeforeImporting": true
+  },
+  {
+    "zip": "src/data_2016_11.zip",
+    "date": "Nov 01, 2016 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ Nov 2016",
+    "cleanDirBeforeImporting": true
+  },
+  {
+    "zip": "src/data_2017_08.zip",
+    "date": "Aug 01, 2017 12:00",
+    "commitMessage": "Noctis IV Starmap and GUIDE @ Aug 2017",
     "cleanDirBeforeImporting": true
   },
   {
     "zip": "src/add_readme.zip",
-    "date": "Mar 07, 2017 20:55",
+    "date": "Sep 16, 2019 17:00",
     "commitMessage": "Added README.md",
     "cleanDirBeforeImporting": false
   }
