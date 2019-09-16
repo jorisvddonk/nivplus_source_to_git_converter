@@ -5,6 +5,7 @@ var admzip = require('adm-zip');
 var moment = require('moment');
 var config = require('./config.json');
 var metadata = require('./metadata.json');
+const { execFileSync } = require('child_process');
 
 var repoDir = "git";
 var initRepo = function() {
@@ -62,6 +63,16 @@ function doNext(repository, meta) {
       fsextra.writeFileSync(relpath, zipEntry.getData());
     }
   });
+  if (meta.runTriceratops) {
+    console.log("Running Triceratops...");
+    try {
+      execFileSync(path.join(__dirname, 'binaries/triceratops.exe'),{cwd: repository.workdir(), stdio:'inherit'});
+    } catch (e) {
+      //console.warn(e);
+    }
+    
+    fsextra.moveSync(path.join(repository.workdir(), 'starmap2.new'), path.join(repository.workdir(), 'starmap2.bin'))
+  }
   return repository.refreshIndex().then(function(index) {
     return index.addAll().then(function(){
       return index.write().then(function(){
